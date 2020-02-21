@@ -1,0 +1,6 @@
+body{
+image-resolution: from-image;
+  image: url(/static/profile.png);
+  background-size: cover;
+  color:#fff;
+}

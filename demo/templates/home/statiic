@@ -1,0 +1,3 @@
+{% load static %}
+<img src="{% static "web/work/demo/static/img/pic.png" %}"
+alt="My image">

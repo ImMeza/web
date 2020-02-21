@@ -1,0 +1,41 @@
+{% load static %}
+
+<link rel ="stylesheet"href="{%static 'styles6.css'%}">
+
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+  #encabezado {
+    background-color: darkblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
+
+
+  #texto {
+
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+
+  </style>
+
+  <h1 id="encabezado">Reloj Mundial</h1>
+
+  <h4 id="texto">Un ejemplo basico de las areas de un supermercado y los alimentos que hay que cada uno de ellos.</h4>
+
+<h2 id="texto">Este es un ejemplo de un JavaScrip y el como puedes hacer aparecer elementos
+que antes no estaban para ahorrar espacio y tener un diseño mas elegante</h2>
+<h3 id="texto">Aqui simplemente mostraremos la fecha y hora</h3>
+
+<button type="button,text-align:center"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click para ver informacion.</button>
+
+<p id="texto"></p>
+
+</body>
+</html>

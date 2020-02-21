@@ -1,0 +1,28 @@
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+<style>
+.city {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+</style>
+<body>
+<link rel ="stylesheet"href="{%static 'styles3.css'%}">
+<h2>Distintas etiquetas en un sola base para ver varios conceptos</h2>
+<p>Con este codigo vemos distintos temas en el mismo espacio representando cosas por si solos
+y se pueden leer ambos sin problema</p>
+
+<h2 class="city">Consolas</h2>
+<p class="city">Las mejores consolas del mundo en la palama de tus manos.</p>
+<h2 class="city"><a href="https://www.playstation.com/en-us/explore/ps4/">PS4</a>,
+  <a href="https://www.xbox.com/en-US/">XBOX</a>,
+<a href="https://www.nintendo.com/switch/">SWITCH</a></h2>
+
+</body>
+</html>
+
+
+{% endblock %}

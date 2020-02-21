@@ -1,0 +1,92 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Lista de Jugadores</h2>
+
+<table>
+  <tr>
+    <th>Jugador</th>
+    <th>Edad</th>
+    <th>Nacionalidad</th>
+  </tr>
+  <tr>
+    <td>Alberto Meza</td>
+    <td>23/td>
+    <td>Americano</td>
+  </tr>
+  <tr>
+    <td>Juanita Perez</td>
+    <td>26/td>
+    <td>Aleman</td>
+  </tr>
+
+</table>
+
+<h3>Equipos</h3>
+<form>
+  <input type="radio" id="Femenino" name="sexo" value="femenino">
+  <label for="femenino">Equipo Rojo</label><br>
+  <input type="radio" id="Masculino" name="sexo" value="masculino">
+  <label for="masculino">Equipo Azul</label><br>
+  <input type="radio" id="otro" name="sexo" value="otro">
+  <label for="otro">Equipo Verde</label>
+</form>
+
+<h4>Estadios</h4>
+<form>
+  <input type="radio" id="Femenino" name="sexo" value="femenino">
+  <label for="femenino">General</label><br>
+  <input type="radio" id="Masculino" name="sexo" value="masculino">
+  <label for="masculino">Caliente</label><br>
+  <input type="radio" id="otro" name="sexo" value="otro">
+  <label for="otro">Xolos</label>
+</form>
+<div class="w3-row-padding">
+  <div class="w3-third">
+    <h2>Detalles de jugadores</h2>
+
+    <h2>Alberto Meza</h2>
+    <p>optio cumque nihil impedit quo minus id quod maxime placeat facere possimus,
+    omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis
+     aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+     Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+     ut perferendis doloribus asperiores repellat.</p>
+  </div>
+
+
+
+  <div class="w3-third">
+    <h2>Juanita Perez</h2>
+
+    <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will
+      give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the
+       master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but
+        because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. </p>
+  </div>
+</div>
+</body>
+</html>

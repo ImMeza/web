@@ -1,0 +1,71 @@
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body>
+<style>
+  #encabezado {
+    background-color: lightgreen;
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
+
+
+  #texto {
+
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+
+  </style>
+
+<h1 id="encabezado">Formulario</h1>
+<h2>Identidad</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Nombre:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Apellido:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+</form>
+
+<h4></h4>
+
+<form action="/action_page.php">
+  <label for="fname">Direccion:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Numero telefonico:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+</form>
+
+<h3>Sexo</h3>
+<form>
+  <input type="radio" id="Femenino" name="sexo" value="femenino">
+  <label for="femenino">Femenino</label><br>
+  <input type="radio" id="Masculino" name="sexo" value="masculino">
+  <label for="masculino">Masculino</label><br>
+  <input type="radio" id="otro" name="sexo" value="otro">
+  <label for="otro">Otro</label>
+</form>
+
+<h5>Preferencia</h5>
+<form>
+  <input type="radio" id="Perro" name="mascota" value="perro">
+  <label for="perro">Perros</label><br>
+  <input type="radio" id="Gato" name="mascota" value="gato">
+  <label for="gato">Gatos</label><br>
+  <input type="radio" id="Tortuga" name="mascota" value="tortuga">
+  <label for="tortuga">Tortugas</label><br>
+  <input type="radio" id="Loro" name="mascota" value="loro">
+  <label for="loro">Loro</label>
+</form>
+
+<h6>Salva tu proceso con ctrl - s</h6>
+</body>
+</html>

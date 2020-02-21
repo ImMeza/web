@@ -1,0 +1,19 @@
+{% load static %}
+{% block content %}
+  <h1>PeriCump</h1>
+  <p>Bienvenido a nuestra pagina informativa de perifericos traido por <em>Mozilla Developer Network</em>!</p>
+  <h2>Contenido Dinamico</h2>
+  <p>El contenido mas destacado es:</p>
+  <ul>
+<link rel ="stylesheet"href="{%static 'styles.css'%}">
+    <li><strong>Mouse:</strong> {{ "Gamer" }}</li>
+    <li><strong>Teclados:</strong> {{ "Razer, Genericos" }}</li>
+    <li><strong>Monitores:</strong> {{ "Alta gama, Media gama" }}</li>
+    <li><strong>Nuestras marcas:</strong> {{ "Lenovo, HP, AlienWare" }}</li>
+  </ul>
+  <div style="" class="button-box" >
+
+</div>
+
+
+{% endblock %}

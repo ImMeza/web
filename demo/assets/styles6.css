@@ -1,0 +1,6 @@
+body{
+  background-color: #0f121f;
+  background-image: url(/static/world.png);
+  background-size: cover;
+  color:#fff;
+}

@@ -1,0 +1,21 @@
+{% load static %}
+{% block title %}Inicio{% endblock %}
+{% block content %}
+
+<div style="text-align:center"><h2>Login</h2></div>
+<div style="text-align:center">
+  <form method="post" id="form_login">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+        {% load bootstrap4 %}
+{% bootstrap_css %}
+
+    <button type="submit">Ingreso</button>
+    <a class="btn btn-primary" href="/segundo">Click aqui!</a>
+    <p>
+{%bootstrap_javascript jquery='full' %}
+
+
+  </form></div>
+{% endblock %}
